@@ -34,7 +34,7 @@ describe('Vault', function() {
     vaulted.getValue( key2ToSet ).should.equal( value2ToSet );
 
   });
-
+  
   it('should not return values from other vaults', function() {
     var key1ToSet = 'my key 1';
     var value1ToSet = 'my secret 1';
